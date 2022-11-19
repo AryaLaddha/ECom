@@ -1,0 +1,32 @@
+.NavbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 30px;
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.navbar-logo {
+    color: #fff;
+}
+
+.NavbarItems > ul {
+    display: flex;
+    list-style: none;
+}
+
+.NavbarItems > ul > li {
+    padding: 15px;
+}
+
+.NavbarItems > ol {
+    display: flex;
+    list-style: none;
+}
+
+.NavbarItems > ol > li {
+    padding: 15px;
+}
