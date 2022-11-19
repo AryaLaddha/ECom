@@ -2,15 +2,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0 30px;
     width: 100%;
     height: 60px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .navbar-logo {
     color: #fff;
+}
+
+.NavbarItems > h2:hover {
+    color: blue;
+    cursor: pointer;
 }
 
 .NavbarItems > ul {
@@ -22,6 +27,15 @@
     padding: 15px;
 }
 
+.NavbarItems > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.NavbarItems > ul > li > a:hover {
+    color: blue;
+}
+
 .NavbarItems > ol {
     display: flex;
     list-style: none;
@@ -29,4 +43,13 @@
 
 .NavbarItems > ol > li {
     padding: 15px;
+}
+
+.NavbarItems > ol > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.NavbarItems > ol > li > a:hover {
+    color: blue;
 }

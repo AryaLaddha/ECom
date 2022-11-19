@@ -13,7 +13,7 @@ class Navbar extends React.Component {
                         )
                     })}
                 </ul>
-                Ecommerce Website
+                <h2>Ecommerce Website</h2>
                 <ol classname="nav-menu-right">
                     {MenuItems.map((item, index) =>{
                         return (
