@@ -1,9 +1,9 @@
 export const MenuItems = [
-    {
-        url: "",
-        cName: "nav-links",
-        icon: "fa fa-search"
-    },
+    // {
+    //     url: "",
+    //     cName: "nav-links",
+    //     icon: "fa fa-search"
+    // },
     {
         url: "",
         cName: "nav-links",
