@@ -3,7 +3,7 @@
     position: fixed;
     background: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 1rem;
     padding: 0 5rem;
@@ -32,15 +32,31 @@
 .NavbarItems > ul > li > a {
     text-decoration: none;
     color: black;
+    position: relative;
 }
 
-.NavbarItems > ul > li > a:hover {
-    color: blue;
+.NavbarItems > ul > li > a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.NavbarItems > ul > li > a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .NavbarItems > ol {
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .search-box {
