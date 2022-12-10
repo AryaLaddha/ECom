@@ -10,6 +10,7 @@ class BackgroundPage extends React.Component {
                 <div className="text_in_image">
                     <h1>Background Page, Background Page</h1>
                     <h2>Background Page, Background Page2</h2>
+                    <button><a href="">Check it out</a></button>
                 </div>
             </div>
         )
