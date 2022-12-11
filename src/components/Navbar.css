@@ -15,6 +15,13 @@
     color: #fff;
 }
 
+.NavbarItems > h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .NavbarItems > h2:hover {
     color: blue;
     cursor: pointer;

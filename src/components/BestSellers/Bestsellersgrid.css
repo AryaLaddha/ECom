@@ -1,0 +1,15 @@
+.Gridmain {
+    background: yellow;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;
+    padding: 20px;
+}
+
+.Gridmain > .designmain {
+    background: white;
+    height: 600px;
+    width: 500px;
+}
