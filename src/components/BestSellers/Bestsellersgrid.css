@@ -1,15 +1,23 @@
 .Gridmain {
-    background: yellow;
+    /* background: yellow; */
     height: 700px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     white-space: nowrap;
-    padding: 20px;
+    padding: 30px;
 }
 
 .Gridmain > .designmain {
+    margin-right: 10px;
     background: white;
-    height: 600px;
-    width: 500px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
 }
+
+.Gridmain > .designmain > img {
+    cursor: pointer;
+    width: 100%;
+}
+
