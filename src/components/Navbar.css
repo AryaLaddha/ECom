@@ -30,17 +30,18 @@
 .NavbarItems > ul {
     display: flex;
     list-style: none;
-    margin-right: auto;
+    margin-right: 35%;
 }
 
 .NavbarItems > ul > li {
-    padding: 15px;
+    padding: 10px;
 }
 
 .NavbarItems > ul > li > a {
     text-decoration: none;
     color: black;
     position: relative;
+    font-size: 20px;
 }
 
 .NavbarItems > ul > li > a::after {
@@ -64,7 +65,7 @@
 .NavbarItems > ol {
     display: flex;
     list-style: none;
-    margin-left: auto;
+    margin-left: 35%;
 }
 
 .search-box {
@@ -102,12 +103,13 @@
 }
 
 .NavbarItems > ol > li {
-    padding: 15px;
+    padding: 10px;
 }
 
 .NavbarItems > ol > li > a {
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 
 .NavbarItems > ol > li > a:hover {
