@@ -34,6 +34,7 @@
 }
 
 .Bestsellers-grid > .Bestsellers-card:hover > .Bestsellers-card-imagebox {
+    cursor: pointer;
     top: 0%;
     transform: translateY(-25%);
     /* bug  */
